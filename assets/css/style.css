@@ -36,6 +36,7 @@ body {
 @media(min-width: 800px) {
     body {
         background: var(--stone-100);
+        min-height: 100dvh;
     }
 }
 
@@ -51,7 +52,6 @@ body {
 
 @media(min-width: 800px) {
     .container {
-        min-height: 100dvh;
         display: flex;
         justify-content: center;
         align-items: center;
